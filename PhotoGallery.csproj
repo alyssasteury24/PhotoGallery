@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Picture\" />
+    <None Remove="Picture\pic1.jpg" />
+    <None Remove="Picture\pic10.jpg" />
+    <None Remove="Picture\pic11.png" />
+    <None Remove="Picture\pic12.jpg" />
+    <None Remove="Picture\pic2.jpg" />
+    <None Remove="Picture\pic3.jpg" />
+    <None Remove="Picture\pic4.jpg" />
+    <None Remove="Picture\pic5.jpg" />
+    <None Remove="Picture\pic6.jpg" />
+    <None Remove="Picture\pic7.jpg" />
+    <None Remove="Picture\pic8.jpg" />
+    <None Remove="Picture\pic9.jpeg" />
+    <None Remove="24-36in.jpg" />
+    <None Remove="Picture\pic12.jpeg" />
+    <None Remove="Picture\pic13.jpeg" />
+    <None Remove="Picture\pic14.jpeg" />
+    <None Remove="Picture\pic15.jpeg" />
+    <None Remove="Picture\pic16.jpeg" />
+    <None Remove="Picture\pic17.jpeg" />
+    <None Remove="Picture\pic18.jpeg" />
+    <None Remove="Picture\pic19.jpeg" />
+    <None Remove="Picture\pic20.jpeg" />
+    <None Remove="Picture\favoriteIcon.png" />
+    <None Remove="Picture\unfavoriteIcon.png" />
+    <None Remove="Picture\favoriteButton2.png" />
+    <None Remove="Picture\pic21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Picture\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Picture\pic10.jpg" />
+    <Content Include="Picture\pic11.png" />
+    <Content Include="Picture\pic12.jpg" />
+    <Content Include="Picture\pic4.jpg" />
+    <Content Include="Picture\pic5.jpg" />
+    <Content Include="Picture\pic6.jpg" />
+    <Content Include="Picture\pic7.jpg" />
+    <Content Include="Picture\pic8.jpg" />
+    <Content Include="Picture\pic9.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Picture\pic1.jpg" />
+    <EmbeddedResource Include="24-36in.jpg" />
+    <EmbeddedResource Include="Picture\pic3.jpg" />
+    <EmbeddedResource Include="Picture\pic2.jpg" />
+    <EmbeddedResource Include="Picture\pic12.jpeg" />
+    <EmbeddedResource Include="Picture\pic13.jpeg" />
+    <EmbeddedResource Include="Picture\pic14.jpeg" />
+    <EmbeddedResource Include="Picture\pic15.jpeg" />
+    <EmbeddedResource Include="Picture\pic16.jpeg" />
+    <EmbeddedResource Include="Picture\pic17.jpeg" />
+    <EmbeddedResource Include="Picture\pic18.jpeg" />
+    <EmbeddedResource Include="Picture\pic19.jpeg" />
+    <EmbeddedResource Include="Picture\pic20.jpeg" />
+    <EmbeddedResource Include="Picture\favoriteIcon.png" />
+    <EmbeddedResource Include="Picture\unfavoriteIcon.png" />
+    <EmbeddedResource Include="Picture\favoriteButton2.png" />
+    <EmbeddedResource Include="Picture\pic21.jpg" />
+  </ItemGroup>
+</Project>
